@@ -373,6 +373,7 @@ nav a:hover {
   gap: 1rem;
   padding: 2rem 0;
   overflow-x: auto;
+  
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none; /* Firefox */
@@ -387,7 +388,7 @@ nav a:hover {
   flex: 0 0 300px;
   scroll-snap-align: start;
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border:  2px solid var(--primary-color);
   background: rgba(0, 0, 0, 0.05);
   box-shadow: var(--shadow-primary);
   border-radius: 15px;
@@ -434,7 +435,7 @@ nav a:hover {
 }
 
 .project-info {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .project-title {
