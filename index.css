@@ -370,7 +370,7 @@ nav a:hover {
 
 .projects {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   padding: 1.5rem 0;
   overflow-x: auto;
   
@@ -854,21 +854,24 @@ footer {
   .about-text {
     text-align: center;
   }
-  .project {
+  /* .project {
     width: 100%;
-    /* padding: 20px; Réduit les marges pour un affichage plus compact */
-  }
+    padding: 20px; Réduit les marges pour un affichage plus compact
+  } */
   .project img {
     width: 100%; /* L'image occupe toute la largeur de la carte */
     height: auto; /* La hauteur s'ajuste automatiquement en fonction de la largeur */
   }
   .project-info {
-    font-size: 14px; /* Réduit la taille de la police pour améliorer la lisibilité */
+    font-size: 12px; /* Réduit la taille de la police pour améliorer la lisibilité */
   }
 
   .project {
-    width: 70%;
+    width: 60%;
     margin: 0.55rem;
+  }
+  .projects{
+    gap: 7px;
   }
 }
 
